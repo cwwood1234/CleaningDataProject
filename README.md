@@ -21,6 +21,16 @@ The following eight input files must be saved in your R working directory in ord
 7. y_test.txt
 8. y_train.txt
 
+## Logic
+
+The script performs the following five steps, in order:
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in Step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 ## Output
 
 The script will produce a single output file, saved to your R working directory.  The output file is called **output_table.txt**.
